@@ -15,13 +15,13 @@ class Student {
 public class Stu {
     public static void main(String[] args) {
         try {
-            Student s1 = new Student("Alice", 101);
-            Student s2 = new Student("Bob", 102);
+            Student s1 = new Student("Yash", 101);
+            Student s2 = new Student("Harsh", 102);
             s1.display();
             s2.display();
 
             Class<?> cls = Class.forName("Student");
-            Student s3 = (Student) cls.getDeclaredConstructor(String.class, int.class).newInstance("Charlie", 103);
+            Student s3 = (Student) cls.getDeclaredConstructor(String.class, int.class).newInstance("Vijay", 103);
             s3.display();
 
         } catch (Exception e) {
