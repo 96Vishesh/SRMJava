@@ -16,5 +16,6 @@ public class factorial {
         int num = sc.nextInt();
 
         System.out.println("FACTORIAL IS:" + num);
+        sc.close();
     }
 }
