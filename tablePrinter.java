@@ -9,7 +9,7 @@ class tablePrinter implements Runnable {
         for (int i = 1; i <= 10; i++) {
             System.out.println("Table of " + number + ": " + number + " x " + i + " = " + (number * i));
             try {
-                Thread.sleep(500); // delay for clarity
+                Thread.sleep(500); 
             } catch (InterruptedException e) {
                 System.out.println("Thread interrupted.");
             }
